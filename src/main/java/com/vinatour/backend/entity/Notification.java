@@ -38,6 +38,7 @@ public class Notification {
     private Boolean isRead = false;
 
     @CreationTimestamp
+    @Temporal(TemporalType.TIMESTAMP)
     @Column(name = "created_at", updatable = false)
     private LocalDateTime createdAt;
 }
