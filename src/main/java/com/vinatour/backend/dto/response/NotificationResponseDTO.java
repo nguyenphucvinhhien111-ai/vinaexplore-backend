@@ -16,5 +16,5 @@ public class NotificationResponseDTO {
     private Integer referenceId;
     private String message;
     private Boolean isRead;
-    private LocalDateTime createdAt;
+    private java.util.Date createdAt;
 }

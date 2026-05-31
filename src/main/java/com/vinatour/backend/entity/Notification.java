@@ -40,5 +40,5 @@ public class Notification {
     @CreationTimestamp
     @Temporal(TemporalType.TIMESTAMP)
     @Column(name = "created_at", updatable = false)
-    private LocalDateTime createdAt;
+    private java.util.Date createdAt;
 }
